@@ -1,4 +1,19 @@
-# Notatki do prezetnacji
+# Notatki do prezentacji
+
+### Plan prezentacji
+- DB Wstęp, brakuje programistów a aplikacje trzeba robić, statystyka, agenda
+- DB Co to jest no-code i low-code
+- DB Czym nie jest no-code i low-code (visual programming languages)
+- KB Przeznaczenie, najpopularniejsze funkcjonalności
+- KB Anty-przeznaczenie
+- AB Zalety
+- AB Wady
+- AB Narzędzia do tworzenia aplikacji low-code i no-code
+- KB Tworzenie aplikacji live (ale lepiej nagrać i przyspieszyć)
+- KB Prezentacja własnych aplikacji no-code, pytanie ludzi ile zajęło zrobienie aplikacji i ile by zajęło zrobienie aplikacji samemu
+- DB Najpopularniejsze aplikacje w low-code i no-code
+- AB Porównanie, kod, czas i koszty
+- KB Quiz ze zgadywaniem czy aplikacja jest napisana w no-code czy nie jest
 
 ### Co to w ogóle jest
 - low-code - do stworzenia aplikacji wymagana jest podstawowa wiedza z zakresu programowania, jednak nie wymaga się wiedzy specjalistycznej
@@ -52,6 +67,7 @@
 ### Przykłady aplikacji
 - Snapchat???
 - Pokemon GO???
+- Ikea???
 
 ### Źródła
 - https://www.computerworld.pl/news/Low-code-no-code-przyszlosc-tworzenia-aplikacji,424154.html

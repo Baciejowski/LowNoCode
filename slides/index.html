@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Dream team">
+  <title>Low Code and No Code</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@%5E4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@%5E4//dist/reveal.css">
+  <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@%5E4//dist/theme/black.css" id="theme">
+  <link rel="stylesheet" href="custom.css">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Low Code and No Code</h1>
+  <p class="author">Dream team</p>
+  <p class="date">Test, test, test</p>
+</section>
+
+<section>
+<section id="agenda" class="title-slide slide level1">
+<h1>Agenda</h1>
+
+</section>
+<section id="git-101" class="slide level2">
+<h2>Git 101</h2>
+<ol>
+<li>Brief history of VCSes</li>
+<li>A few things before we begin</li>
+<li>Git basics</li>
+<li>Branching</li>
+<li>Customizing Git</li>
+</ol>
+</section></section>
+<section>
+<section id="brief-history-of-vcses" class="title-slide slide level1">
+<h1>Brief history of VCSes</h1>
+
+</section>
+<section id="svcs" class="slide level2">
+<h2>SVCS</h2>
+<p>Simple (or stupid) Version Control System.</p>
+<aside class="notes">
+Simple (or stupid) Version Control System - you just copy your files
+around and pray you don’t make a mistake.
+</aside>
+</section>
+<section id="lvcs" class="slide level2">
+<h2>LVCS</h2>
+<aside class="notes">
+A simple database that keeps all the changes under revision control.
+</aside>
+
+<img data-src="images/lvcs.png" class="stretch" alt="Local version control"></section>
+<section id="cvcs" class="slide level2">
+<h2>CVCS</h2>
+
+<aside class="notes">
+A single server that contains all the versioned files.
+</aside>
+<img data-src="images/cvcs.png" class="stretch" alt="Centralized version control"></section>
+<section id="dvcs" class="slide level2">
+<h2>DVCS</h2>
+
+<aside class="notes">
+Everyone is a server.
+</aside>
+<img data-src="images/dvcs.png" class="stretch" alt="Distributed version control"></section></section>
+<section>
+<section id="a-few-things-before-we-begin" class="title-slide slide level1">
+<h1>A few things before we begin</h1>
+
+</section>
+<section id="introduce-yourself" class="slide level2">
+<h2>Introduce yourself</h2>
+<p>Git would like to know who you are so we have to introduce
+ourselves.</p>
+<pre><code>$ git config --global user.name "Michał Zając"
+$ git config --global user.email "michal.zajac@gmail.com"</code></pre>
+</section>
+<section id="editor" class="slide level2">
+<h2>Editor</h2>
+<p>Git uses you system’s default editor unless you tell it to use
+something else:</p>
+<pre><code>$ git config --global core.editor vim</code></pre>
+</section>
+<section id="verifying-settings" class="slide level2">
+<h2>Verifying settings</h2>
+<p>You can check your settings with <code>git config --list</code></p>
+<pre><code>$ git config --list
+user.name=Michał Zając
+user.email=michal.zajac@gmail.com
+core.editor=vim</code></pre>
+</section>
+<section id="i-will-be-using-an-alias" class="slide level2">
+<h2>I will be using an alias</h2>
+<p><code>git glog</code></p>
+<pre><code>git config --global alias.glog "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset' --abbrev-commit"</code></pre>
+</section>
+<section id="snapshots-instead-of-differences" class="slide level2">
+<h2>Snapshots instead of differences</h2>
+
+<img data-src="images/deltas.png" class="stretch" alt="Storing data as changes"></section>
+<section id="snapshots-instead-of-differences-1" class="slide level2">
+<h2>Snapshots instead of differences</h2>
+
+<img data-src="images/snapshots.png" class="stretch" alt="Storing data as snapshots"></section>
+<section id="nearly-everything-is-local" class="slide level2">
+<h2>Nearly everything is local</h2>
+<p>Don’t have internet connection? Not a problem. <small><em>cough</em>
+unlike Subversion <em>cough</em></small></p>
+</section>
+<section id="git-has-integrity" class="slide level2">
+<h2>Git has integrity</h2>
+</section>
+<section id="git-generally-only-adds-data" class="slide level2">
+<h2>Git generally only adds data</h2>
+</section>
+<section id="this-is-very-important" class="slide level2">
+<h2>THIS IS VERY IMPORTANT</h2>
+</section>
+<section id="section" class="slide level2">
+<h2></h2>
+
+<img data-src="images/gitgud.jpg" class="stretch" alt="Git gud or git rekt"></section>
+<section id="three-states" class="slide level2">
+<h2>Three states</h2>
+<p>Hark for this is main thing to remember from this section if you want
+your learning to proceed smoothly.</p>
+<p>Git has three states that your files can reside in: modified, staged,
+commited.</p>
+</section>
+<section id="three-states-1" class="slide level2">
+<h2>Three states</h2>
+
+<img data-src="images/areas.png" class="stretch" alt="Three states"></section></section>
+<section>
+<section id="git-basics" class="title-slide slide level1">
+<h1>Git basics</h1>
+
+</section>
+<section id="creating-a-git-repository" class="slide level2">
+<h2>Creating a Git repository</h2>
+<pre><code>$ cd my_project
+$ git init
+Initialized empty Git repository in /home/quintasan/my_project
+$ git add .
+$ git commit -m "Initial commit"</code></pre>
+</section>
+<section id="getting-a-git-repository" class="slide level2">
+<h2>Getting a Git repository</h2>
+<pre><code>$ git clone git@github.com:Quintasan/misc.git</code></pre>
+</section>
+<section id="checking-status-of-your-files" class="slide level2">
+<h2>Checking status of your files</h2>
+<p><code>git status</code> is your friend. Be sure to visit your friends
+very often.</p>
+</section>
+<section id="possible-file-states" class="slide level2">
+<h2>Possible file states</h2>
+
+<img data-src="images/lifecycle.png" class="stretch" alt="Lifecycle of the status of your files"></section>
+<section id="tracking-new-files" class="slide level2">
+<h2>Tracking new files</h2>
+<p><code>git add</code> is the way</p>
+</section>
+<section id="staging-modified-files" class="slide level2">
+<h2>Staging modified files</h2>
+<p><code>git add</code> is also the way</p>
+</section>
+<section id="ignoring-files" class="slide level2">
+<h2>Ignoring files</h2>
+<p>Add ’em to <code>.gitignore</code></p>
+</section>
+<section id="viewing-staged-and-unstaged-changes" class="slide level2">
+<h2>Viewing staged and unstaged changes</h2>
+<p>To view unstaged changes: <code>git diff</code></p>
+<p>To view staged changes: <code>git diff --cached</code></p>
+</section>
+<section id="commiting" class="slide level2">
+<h2>Commiting</h2>
+<p>This one is obvious - <code>git commit</code></p>
+</section>
+<section id="removing-files" class="slide level2">
+<h2>Removing files</h2>
+<p>Piece of cake - <code>git rm</code></p>
+</section>
+<section id="moving-files-around" class="slide level2">
+<h2>Moving files around</h2>
+<p><code>git mv</code> which is equivalent to</p>
+<pre><code>$ mv README.md README
+$ git rm README.md
+$ git add README</code></pre>
+</section>
+<section id="viewing-the-history" class="slide level2">
+<h2>Viewing the history</h2>
+<p><code>git log</code> allows you to browse the commit history</p>
+<aside class="notes">
+-p -2 to limit <br> –stat for abbereviated stats –pretty=oneline to
+squeeze things –log –graph –pretty=format:‘%Cred%h%Creset
+-%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset’
+–abbrev-commit
+</aside>
+</section>
+<section id="brief-intermission" class="slide level2">
+<h2>Brief intermission</h2>
+<p>The following sections will touch upon things that can lead to data
+loss if handled incorrectly.</p>
+</section>
+<section id="one-simple-rule" class="slide level2">
+<h2>One simple rule</h2>
+<p>Do not rewrite history once you made it public.</p>
+</section>
+<section id="i-forgot-to-add-things-to-a-commit" class="slide level2">
+<h2>I forgot to add things to a commit</h2>
+<p>Use <code>git commit --amend</code></p>
+<aside class="notes">
+git commit -m “Initial commit” <br> git add file_I_forgot <br> git
+commit –amend <br>
+</aside>
+</section>
+<section id="unstaging-a-staged-file" class="slide level2">
+<h2>Unstaging a staged file</h2>
+<p>Added too much? Use <code>git reset HEAD &lt;file&gt;</code>. For now
+this is the only reset command you need.</p>
+</section>
+<section id="unmodifying-a-modified-file" class="slide level2">
+<h2>Unmodifying a modified file</h2>
+<p>Your refactor was a bad idea afer all? Use
+<code>git checkout -- &lt;file&gt;</code>.</p>
+<p>THIS CAN AND WILL RESULT IN DATA LOSS.</p>
+</section>
+<section id="working-with-remotes" class="slide level2">
+<h2>Working with remotes</h2>
+<p>Since Git is distributed we often have to work with remote hosts.</p>
+</section>
+<section id="listing-remotes" class="slide level2">
+<h2>Listing remotes</h2>
+<p><code>git remote</code> will show all remotes</p>
+</section>
+<section id="adding-remotes" class="slide level2">
+<h2>Adding remotes</h2>
+<p><code>git remote add &lt;name&gt; &lt;url&gt;</code></p>
+</section>
+<section id="fetching-and-pulling" class="slide level2">
+<h2>Fetching and pulling</h2>
+<p><code>git fetch</code> vs. <code>git pull</code></p>
+</section>
+<section id="pushing-data" class="slide level2">
+<h2>Pushing data</h2>
+<p><code>git push &lt;remote name&gt; &lt;branch name&gt;</code></p>
+</section>
+<section id="adding-removing-and-renaming-remotes" class="slide level2">
+<h2>Adding, removing and renaming remotes</h2>
+<p><code>git remote rm &lt;name&gt;</code>,
+<code>git remote rename &lt;name&gt; &lt;new_name&gt;</code></p>
+</section></section>
+<section>
+<section id="branching" class="title-slide slide level1">
+<h1>Branching</h1>
+
+</section>
+<section id="branches-in-a-nutshell" class="slide level2">
+<h2>Branches in a nutshell</h2>
+<p>Let us a take a step back and examine how Git stores its data.</p>
+<aside class="notes">
+Gdy commitujemy Git tworzy nowy obiekt który zawiera wskaźnik do
+snapshotu rzeczy które daliśmy do staging area. <br> Obiekt ten
+dodatkowo zawiera imię i nazwisko autora, email oraz commit message oraz
+wskaźniki na poprzednie commity.
+</aside>
+</section>
+<section id="example" class="slide level2">
+<h2>Example</h2>
+<aside class="notes">
+Mamy repozytorium z trzema plikami, dodajemy wszystkie do staging area i
+commitujemy. Dodanie czegoś do staging area powoduje obliczenie sumy
+SHA1 każdego pliku, przechowuje tą wersję pliku (nazywa się to blob) i
+dodaje taką sumę do staging area.
+</aside>
+</section>
+<section id="example-1" class="slide level2">
+<h2>Example</h2>
+
+<img data-src="images/commit-and-tree.png" class="stretch" alt="A commit and it’s tree"></section>
+<section id="example-cont." class="slide level2">
+<h2>Example cont.</h2>
+
+<img data-src="images/commits-and-parents.png" class="stretch" alt="Commits and their parents"></section>
+<section id="what-is-a-branch" class="slide level2">
+<h2>What is a branch?</h2>
+<p>Essentially branch is a movable pointer to one of these commits.</p>
+</section>
+<section id="a-branch-and-its-commit-history" class="slide level2">
+<h2>A branch and its commit history</h2>
+
+<img data-src="images/branch-and-history.png" class="stretch" alt="A branch and its commit history"></section>
+<section id="creating-a-new-branch" class="slide level2">
+<h2>Creating a new branch</h2>
+<p><code>git branch &lt;branch name&gt;</code></p>
+</section>
+<section id="creating-a-new-branch-1" class="slide level2">
+<h2>Creating a new branch</h2>
+
+<img data-src="images/two-branches.png" class="stretch" alt="Two branches pointing at the same series of commits"></section>
+<section id="how-does-git-know-where-am-i" class="slide level2">
+<h2>How does Git know where am I?</h2>
+<p>It uses its HEAD (please don’t judge me).</p>
+</section>
+<section id="git-using-its-head" class="slide level2">
+<h2>Git using its HEAD</h2>
+
+<img data-src="images/head-to-master.png" class="stretch" alt="HEAD pointing to a branch"></section>
+<section id="switching-branches" class="slide level2">
+<h2>Switching branches</h2>
+<p><code>git checkout &lt;branch name&gt;</code></p>
+</section>
+<section id="switching-branches-1" class="slide level2">
+<h2>Switching branches</h2>
+
+<img data-src="images/head-to-testing.png" class="stretch" alt="HEAD points to the current branch"></section>
+<section id="advancing-branches" class="slide level2">
+<h2>Advancing branches</h2>
+<p>Let’s change something and see the state of our branches.</p>
+</section>
+<section id="advancing-branches-1" class="slide level2">
+<h2>Advancing branches</h2>
+
+<img data-src="images/advance-testing.png" class="stretch" alt="HEAD branch moves forward when a commit is made"></section>
+<section id="diverging-master" class="slide level2">
+<h2>Diverging master</h2>
+<p>Let’s go back to master and change something as well.</p>
+</section>
+<section id="diverging-master-1" class="slide level2">
+<h2>Diverging master</h2>
+
+<img data-src="images/advance-master.png" class="stretch" alt="Divergent history"></section>
+<section id="basic-branching-and-merging" class="slide level2">
+<h2>Basic branching and merging</h2>
+</section>
+<section id="scenario" class="slide level2">
+<h2>Scenario</h2>
+<p>We’re working on a website and we’re writing a new story. Suddenly we
+receive a call about a critical issue that we have to fix.</p>
+</section>
+<section id="steps" class="slide level2">
+<h2>Steps</h2>
+<ol>
+<li>Create a new branch for a story</li>
+<li>Start working in that branch</li>
+<li>Switch to the production branch</li>
+<li>Create a branch for the hotfix</li>
+<li>Merge the hotfix branch and push to production</li>
+<li>Switch back to our story branch and continue working</li>
+<li>Merging our story</li>
+</ol>
+</section>
+<section id="a-worked-example" class="slide level2">
+<h2>A worked example</h2>
+</section>
+<section id="new-branch" class="slide level2">
+<h2>New branch</h2>
+
+<img data-src="images/basic-branching-2.png" class="stretch" alt="Creating a new branch"></section>
+<section id="commiting-a-post" class="slide level2">
+<h2>Commiting a post</h2>
+
+<img data-src="images/basic-branching-3.png" class="stretch" alt="Branch moving forward"></section>
+<section id="creating-the-hotfix-branch" class="slide level2">
+<h2>Creating the hotfix branch</h2>
+
+<img data-src="images/basic-branching-4.png" class="stretch" alt="Hotfix branch based on master"></section>
+<section id="merging-hotfix-branch" class="slide level2">
+<h2>Merging hotfix branch</h2>
+
+<img data-src="images/basic-branching-5.png" class="stretch" alt="Merging hotfix branch"></section>
+<section id="finishing-our-post" class="slide level2">
+<h2>Finishing our post</h2>
+
+<img data-src="images/basic-branching-6.png" class="stretch" alt="Work continues"></section>
+<section id="merging-our-changes" class="slide level2">
+<h2>Merging our changes</h2>
+
+<img data-src="images/basic-merging-1.png" class="stretch" alt="How to"></section>
+<section id="merging-our-changes-1" class="slide level2">
+<h2>Merging our changes</h2>
+
+<img data-src="images/basic-merging-2.png" class="stretch" alt="After"></section>
+<section id="conflicts" class="slide level2">
+<h2>Conflicts</h2>
+<p>Conflits happen more often than not. First rule: don’t panic.</p>
+</section>
+<section id="example-2" class="slide level2">
+<h2>Example</h2>
+</section></section>
+<section>
+<section id="customizing-git" class="title-slide slide level1">
+<h1>Customizing git</h1>
+
+</section>
+<section id="aliases" class="slide level2">
+<h2>Aliases</h2>
+</section>
+<section id="nice-history" class="slide level2">
+<h2>Nice history</h2>
+<pre><code>git config --global alias.glog log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset' --abbrev-commit</code></pre>
+</section>
+<section id="short-status" class="slide level2">
+<h2>Short status</h2>
+<p>git config –global alias.s status -s</p>
+</section>
+<section id="list-of-files-that-changed-in-a-commit" class="slide level2">
+<h2>List of files that changed in a commit</h2>
+<pre><code>git config --global alias.lshow diff-tree --no-commit-id --name-status -r</code></pre>
+</section>
+<section id="list-of-commits-that-modify-a-file" class="slide level2">
+<h2>List of commits that modify a file</h2>
+<p><code>git config --global filelog log -u</code></p>
+</section></section>
+<section>
+<section id="finishing-up" class="title-slide slide level1">
+<h1>Finishing up</h1>
+
+</section>
+<section id="questions" class="slide level2">
+<h2>Questions?</h2>
+</section>
+<section id="further-reading" class="slide level2">
+<h2>Further reading</h2>
+<ol>
+<li><a href="https://git-scm.com/docs">Git documentation</a></li>
+<li><a href="https://git-scm.com/book/en/v2">Pro Git</a></li>
+<li><a href="https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection">Pro
+Git - Git Tools</a></li>
+<li><a href="https://git-scm.com/book/en/v2/Git-in-Other-Environments-Graphical-Interfaces">Pro
+Git - Git in Other Environments</a></li>
+<li><a href="https://git-scm.com/videos">Git videos</a></li>
+<li><a href="https://git-scm.com/doc/ext">External links</a></li>
+</ol>
+</section></section>
+<section id="thanks-for-your-attention" class="title-slide slide level1">
+<h1>Thanks for your attention</h1>
+
+</section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@%5E4//dist/reveal.js"></script>
+
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@%5E4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@%5E4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@%5E4//plugin/zoom/zoom.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: true,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
+</html>

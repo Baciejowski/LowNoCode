@@ -33,6 +33,7 @@
 - ograniczone możliwości do integracji z innymi środowiskami
 - w przypadku low code, ponieważ platforma nie jest w pełni elastyczna, trzeba dostosować procesy biznesowe do aplikacji, a nie na odwrót
 - aplikacje low-code są ciężkie w utrzymaniu, ciężko dodawać funkcjonalności do kodu, który wygenerowała aplikacja
+- spadki na wydajności spowodowane dodatkową warstwą apstrakcji, ponieważ wszystko jest generyczne nie może być szybkie
 
 ### Przeznaczenie
 - no-code - użytkownicy biznesowi

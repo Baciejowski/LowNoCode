@@ -2,3 +2,5 @@ my_project
 misc
 branching_example
 !branching_example.tar.gz
+
+/.idea/

@@ -1,6 +1,15 @@
-% Low Code and No Code
-% Dream team
-% Test, test, test
+% Low Code<br> No Code
+% 
+% Krzysztof Baciejowski, Adam Bednarz, Damian Baliński
+
+##
+![No code/Low code](images/no_code_low_code.png){.stretch}\
+
+##
+<iframe width=100% height=600px src="https://www.youtube.com/embed/sEHsnVIx31E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+##
+![No code/Low code](images/drag_and_drop.svg){.stretch}\
 
 ## Przeznaczenie aplikacji typu low/no-code
 - MVP (Minimum Viable Product)
@@ -24,10 +33,10 @@
 
 # Power Apps
 
-## Tworzenie aplikacji low-code
+## Tworzenie aplikacji<br> low-code
 <video width=100% height=100% autoplay controls><source src="video/tworzenie.mp4" type="video/mp4"></video>
 
-## Przykładowa aplikacja low-code
+## Przykładowa aplikacja<br> low-code
 <video width=100% height=100% autoplay controls><source src="video/gotowa.mp4" type="video/mp4"></video>
 
 
@@ -85,3 +94,23 @@
 
 ##
 ![img](images/soundcloud.png){.stretch}\
+
+# Bibliografia
+##
+```
+New development platforms emerge for customer-facing applications. Forrester (2014) - Clay Richardson, John R Rymer, Christopher Mines, Alex Cullen, Dominique Whittaker
+```
+
+```
+Characteristics and Challenges of Low-Code Development: The Practitioners’ Perspective (2021) - Yajing Luo, Peng Liang, Chong Wang, Mojtaba Shahin, Jing Zhan
+```
+
+```
+Low-code/No-code - przyszłość tworzenia aplikacji - Grzegorz Kubera
+[dostęp: 2022-03-05]
+```
+
+```
+When Low-Code/No-Code Development Works and When It Doesn’t - Chris Johannessen, Tom Davenport
+[dostęp: 2022-03-05]
+```

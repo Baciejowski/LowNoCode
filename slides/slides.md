@@ -43,5 +43,3 @@
 
 ##
 ![img](images/merge_from_ofoct.png){.stretch}\
-
-##

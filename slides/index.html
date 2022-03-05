@@ -36,431 +36,72 @@
   <p class="date">Test, test, test</p>
 </section>
 
-<section>
-<section id="agenda" class="title-slide slide level1">
-<h1>Agenda</h1>
-
-</section>
-<section id="git-101" class="slide level2">
-<h2>Git 101</h2>
-<ol>
-<li>Brief history of VCSes</li>
-<li>A few things before we begin</li>
-<li>Git basics</li>
-<li>Branching</li>
-<li>Customizing Git</li>
-</ol>
-</section></section>
-<section>
-<section id="brief-history-of-vcses" class="title-slide slide level1">
-<h1>Brief history of VCSes</h1>
-
-</section>
-<section id="svcs" class="slide level2">
-<h2>SVCS</h2>
-<p>Simple (or stupid) Version Control System.</p>
-<aside class="notes">
-Simple (or stupid) Version Control System - you just copy your files
-around and pray you don’t make a mistake.
-</aside>
-</section>
-<section id="lvcs" class="slide level2">
-<h2>LVCS</h2>
-<aside class="notes">
-A simple database that keeps all the changes under revision control.
-</aside>
-
-<img data-src="images/lvcs.png" class="stretch" alt="Local version control"></section>
-<section id="cvcs" class="slide level2">
-<h2>CVCS</h2>
-
-<aside class="notes">
-A single server that contains all the versioned files.
-</aside>
-<img data-src="images/cvcs.png" class="stretch" alt="Centralized version control"></section>
-<section id="dvcs" class="slide level2">
-<h2>DVCS</h2>
-
-<aside class="notes">
-Everyone is a server.
-</aside>
-<img data-src="images/dvcs.png" class="stretch" alt="Distributed version control"></section></section>
-<section>
-<section id="a-few-things-before-we-begin" class="title-slide slide level1">
-<h1>A few things before we begin</h1>
-
-</section>
-<section id="introduce-yourself" class="slide level2">
-<h2>Introduce yourself</h2>
-<p>Git would like to know who you are so we have to introduce
-ourselves.</p>
-<pre><code>$ git config --global user.name "Michał Zając"
-$ git config --global user.email "michal.zajac@gmail.com"</code></pre>
-</section>
-<section id="editor" class="slide level2">
-<h2>Editor</h2>
-<p>Git uses you system’s default editor unless you tell it to use
-something else:</p>
-<pre><code>$ git config --global core.editor vim</code></pre>
-</section>
-<section id="verifying-settings" class="slide level2">
-<h2>Verifying settings</h2>
-<p>You can check your settings with <code>git config --list</code></p>
-<pre><code>$ git config --list
-user.name=Michał Zając
-user.email=michal.zajac@gmail.com
-core.editor=vim</code></pre>
-</section>
-<section id="i-will-be-using-an-alias" class="slide level2">
-<h2>I will be using an alias</h2>
-<p><code>git glog</code></p>
-<pre><code>git config --global alias.glog "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset' --abbrev-commit"</code></pre>
-</section>
-<section id="snapshots-instead-of-differences" class="slide level2">
-<h2>Snapshots instead of differences</h2>
-
-<img data-src="images/deltas.png" class="stretch" alt="Storing data as changes"></section>
-<section id="snapshots-instead-of-differences-1" class="slide level2">
-<h2>Snapshots instead of differences</h2>
-
-<img data-src="images/snapshots.png" class="stretch" alt="Storing data as snapshots"></section>
-<section id="nearly-everything-is-local" class="slide level2">
-<h2>Nearly everything is local</h2>
-<p>Don’t have internet connection? Not a problem. <small><em>cough</em>
-unlike Subversion <em>cough</em></small></p>
-</section>
-<section id="git-has-integrity" class="slide level2">
-<h2>Git has integrity</h2>
-</section>
-<section id="git-generally-only-adds-data" class="slide level2">
-<h2>Git generally only adds data</h2>
-</section>
-<section id="this-is-very-important" class="slide level2">
-<h2>THIS IS VERY IMPORTANT</h2>
+<section id="przeznaczenie-aplikacji-typu-lowno-code" class="slide level2">
+<h2>Przeznaczenie aplikacji typu low/no-code</h2>
+<ul>
+<li>MVP (Minimum Viable Product)</li>
+<li>Proste aplikacje bazodanowe</li>
+<li>Na wewnętrzny użytek spółki</li>
+</ul>
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
-
-<img data-src="images/gitgud.jpg" class="stretch" alt="Git gud or git rekt"></section>
-<section id="three-states" class="slide level2">
-<h2>Three states</h2>
-<p>Hark for this is main thing to remember from this section if you want
-your learning to proceed smoothly.</p>
-<p>Git has three states that your files can reside in: modified, staged,
-commited.</p>
+<iframe width="100%" height="600px" src="https://www.appsheet.com/start/c53b2021-8e48-42f1-a287-29e68e3d837a">
+</iframe>
 </section>
-<section id="three-states-1" class="slide level2">
-<h2>Three states</h2>
+<section id="section-1" class="slide level2">
+<h2></h2>
+<iframe width="100%" height="600px" src="https://www.appsheet.com/start/1c2a2d2c-ec8a-4e03-9fc4-b73a8d82a6b8">
+</iframe>
+</section>
+<section id="kiedy-lowno-code-to-zły-pomysł" class="slide level2">
+<h2>Kiedy low/no-code to zły pomysł?</h2>
+<ul>
+<li>gdy potrzeba podnisionego poziomu bezpieczeństwa</li>
+<li>gdy aplikacja musi przetwarzać dane</li>
+<li>gdy nie lubimy płacić ;)</li>
+</ul>
+</section>
+<section id="cennik-microsoft-powerapps" class="slide level2">
+<h2>Cennik Microsoft PowerApps</h2>
 
-<img data-src="images/areas.png" class="stretch" alt="Three states"></section></section>
+<img data-src="images/cena_m.png" class="stretch" alt="Cennik Microsoft PowerApps"></section>
+<section id="cennik-google-appsheet" class="slide level2">
+<h2>Cennik Google AppSheet</h2>
+
+<img data-src="images/cena_g.png" class="stretch" alt="Cennik Google AppSheet"></section>
+<section id="tworzenie-aplikacji-low-code" class="slide level2">
+<h2>Tworzenie aplikacji low-code</h2>
+<video width="100%" height="100%" autoplay controls>
+<source src="video/tworzenie.mp4" type="video/mp4">
+</source></video>
+</section>
+<section id="przykładowa-aplikacja-low-code" class="slide level2">
+<h2>Przykładowa aplikacja low-code</h2>
+<video width="100%" height="100%" autoplay controls>
+<source src="video/gotowa.mp4" type="video/mp4">
+</source></video>
+</section>
 <section>
-<section id="git-basics" class="title-slide slide level1">
-<h1>Git basics</h1>
+<section id="zgadywanka" class="title-slide slide level1">
+<h1>Zgadywanka</h1>
 
 </section>
-<section id="creating-a-git-repository" class="slide level2">
-<h2>Creating a Git repository</h2>
-<pre><code>$ cd my_project
-$ git init
-Initialized empty Git repository in /home/quintasan/my_project
-$ git add .
-$ git commit -m "Initial commit"</code></pre>
+<section id="section-2" class="slide level2">
+<h2></h2>
+<iframe width="100%" height="600px" src="https://saltbranding.com/">
+</iframe>
 </section>
-<section id="getting-a-git-repository" class="slide level2">
-<h2>Getting a Git repository</h2>
-<pre><code>$ git clone git@github.com:Quintasan/misc.git</code></pre>
+<section id="section-3" class="slide level2">
+<h2></h2>
+<video width="100%" height="100%" autoplay controls>
+<source src="video/webflow.mp4" type="video/mp4">
+</source></video>
 </section>
-<section id="checking-status-of-your-files" class="slide level2">
-<h2>Checking status of your files</h2>
-<p><code>git status</code> is your friend. Be sure to visit your friends
-very often.</p>
-</section>
-<section id="possible-file-states" class="slide level2">
-<h2>Possible file states</h2>
+<section id="section-4" class="slide level2">
+<h2></h2>
 
-<img data-src="images/lifecycle.png" class="stretch" alt="Lifecycle of the status of your files"></section>
-<section id="tracking-new-files" class="slide level2">
-<h2>Tracking new files</h2>
-<p><code>git add</code> is the way</p>
-</section>
-<section id="staging-modified-files" class="slide level2">
-<h2>Staging modified files</h2>
-<p><code>git add</code> is also the way</p>
-</section>
-<section id="ignoring-files" class="slide level2">
-<h2>Ignoring files</h2>
-<p>Add ’em to <code>.gitignore</code></p>
-</section>
-<section id="viewing-staged-and-unstaged-changes" class="slide level2">
-<h2>Viewing staged and unstaged changes</h2>
-<p>To view unstaged changes: <code>git diff</code></p>
-<p>To view staged changes: <code>git diff --cached</code></p>
-</section>
-<section id="commiting" class="slide level2">
-<h2>Commiting</h2>
-<p>This one is obvious - <code>git commit</code></p>
-</section>
-<section id="removing-files" class="slide level2">
-<h2>Removing files</h2>
-<p>Piece of cake - <code>git rm</code></p>
-</section>
-<section id="moving-files-around" class="slide level2">
-<h2>Moving files around</h2>
-<p><code>git mv</code> which is equivalent to</p>
-<pre><code>$ mv README.md README
-$ git rm README.md
-$ git add README</code></pre>
-</section>
-<section id="viewing-the-history" class="slide level2">
-<h2>Viewing the history</h2>
-<p><code>git log</code> allows you to browse the commit history</p>
-<aside class="notes">
--p -2 to limit <br> –stat for abbereviated stats –pretty=oneline to
-squeeze things –log –graph –pretty=format:‘%Cred%h%Creset
--%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset’
-–abbrev-commit
-</aside>
-</section>
-<section id="brief-intermission" class="slide level2">
-<h2>Brief intermission</h2>
-<p>The following sections will touch upon things that can lead to data
-loss if handled incorrectly.</p>
-</section>
-<section id="one-simple-rule" class="slide level2">
-<h2>One simple rule</h2>
-<p>Do not rewrite history once you made it public.</p>
-</section>
-<section id="i-forgot-to-add-things-to-a-commit" class="slide level2">
-<h2>I forgot to add things to a commit</h2>
-<p>Use <code>git commit --amend</code></p>
-<aside class="notes">
-git commit -m “Initial commit” <br> git add file_I_forgot <br> git
-commit –amend <br>
-</aside>
-</section>
-<section id="unstaging-a-staged-file" class="slide level2">
-<h2>Unstaging a staged file</h2>
-<p>Added too much? Use <code>git reset HEAD &lt;file&gt;</code>. For now
-this is the only reset command you need.</p>
-</section>
-<section id="unmodifying-a-modified-file" class="slide level2">
-<h2>Unmodifying a modified file</h2>
-<p>Your refactor was a bad idea afer all? Use
-<code>git checkout -- &lt;file&gt;</code>.</p>
-<p>THIS CAN AND WILL RESULT IN DATA LOSS.</p>
-</section>
-<section id="working-with-remotes" class="slide level2">
-<h2>Working with remotes</h2>
-<p>Since Git is distributed we often have to work with remote hosts.</p>
-</section>
-<section id="listing-remotes" class="slide level2">
-<h2>Listing remotes</h2>
-<p><code>git remote</code> will show all remotes</p>
-</section>
-<section id="adding-remotes" class="slide level2">
-<h2>Adding remotes</h2>
-<p><code>git remote add &lt;name&gt; &lt;url&gt;</code></p>
-</section>
-<section id="fetching-and-pulling" class="slide level2">
-<h2>Fetching and pulling</h2>
-<p><code>git fetch</code> vs. <code>git pull</code></p>
-</section>
-<section id="pushing-data" class="slide level2">
-<h2>Pushing data</h2>
-<p><code>git push &lt;remote name&gt; &lt;branch name&gt;</code></p>
-</section>
-<section id="adding-removing-and-renaming-remotes" class="slide level2">
-<h2>Adding, removing and renaming remotes</h2>
-<p><code>git remote rm &lt;name&gt;</code>,
-<code>git remote rename &lt;name&gt; &lt;new_name&gt;</code></p>
-</section></section>
-<section>
-<section id="branching" class="title-slide slide level1">
-<h1>Branching</h1>
-
-</section>
-<section id="branches-in-a-nutshell" class="slide level2">
-<h2>Branches in a nutshell</h2>
-<p>Let us a take a step back and examine how Git stores its data.</p>
-<aside class="notes">
-Gdy commitujemy Git tworzy nowy obiekt który zawiera wskaźnik do
-snapshotu rzeczy które daliśmy do staging area. <br> Obiekt ten
-dodatkowo zawiera imię i nazwisko autora, email oraz commit message oraz
-wskaźniki na poprzednie commity.
-</aside>
-</section>
-<section id="example" class="slide level2">
-<h2>Example</h2>
-<aside class="notes">
-Mamy repozytorium z trzema plikami, dodajemy wszystkie do staging area i
-commitujemy. Dodanie czegoś do staging area powoduje obliczenie sumy
-SHA1 każdego pliku, przechowuje tą wersję pliku (nazywa się to blob) i
-dodaje taką sumę do staging area.
-</aside>
-</section>
-<section id="example-1" class="slide level2">
-<h2>Example</h2>
-
-<img data-src="images/commit-and-tree.png" class="stretch" alt="A commit and it’s tree"></section>
-<section id="example-cont." class="slide level2">
-<h2>Example cont.</h2>
-
-<img data-src="images/commits-and-parents.png" class="stretch" alt="Commits and their parents"></section>
-<section id="what-is-a-branch" class="slide level2">
-<h2>What is a branch?</h2>
-<p>Essentially branch is a movable pointer to one of these commits.</p>
-</section>
-<section id="a-branch-and-its-commit-history" class="slide level2">
-<h2>A branch and its commit history</h2>
-
-<img data-src="images/branch-and-history.png" class="stretch" alt="A branch and its commit history"></section>
-<section id="creating-a-new-branch" class="slide level2">
-<h2>Creating a new branch</h2>
-<p><code>git branch &lt;branch name&gt;</code></p>
-</section>
-<section id="creating-a-new-branch-1" class="slide level2">
-<h2>Creating a new branch</h2>
-
-<img data-src="images/two-branches.png" class="stretch" alt="Two branches pointing at the same series of commits"></section>
-<section id="how-does-git-know-where-am-i" class="slide level2">
-<h2>How does Git know where am I?</h2>
-<p>It uses its HEAD (please don’t judge me).</p>
-</section>
-<section id="git-using-its-head" class="slide level2">
-<h2>Git using its HEAD</h2>
-
-<img data-src="images/head-to-master.png" class="stretch" alt="HEAD pointing to a branch"></section>
-<section id="switching-branches" class="slide level2">
-<h2>Switching branches</h2>
-<p><code>git checkout &lt;branch name&gt;</code></p>
-</section>
-<section id="switching-branches-1" class="slide level2">
-<h2>Switching branches</h2>
-
-<img data-src="images/head-to-testing.png" class="stretch" alt="HEAD points to the current branch"></section>
-<section id="advancing-branches" class="slide level2">
-<h2>Advancing branches</h2>
-<p>Let’s change something and see the state of our branches.</p>
-</section>
-<section id="advancing-branches-1" class="slide level2">
-<h2>Advancing branches</h2>
-
-<img data-src="images/advance-testing.png" class="stretch" alt="HEAD branch moves forward when a commit is made"></section>
-<section id="diverging-master" class="slide level2">
-<h2>Diverging master</h2>
-<p>Let’s go back to master and change something as well.</p>
-</section>
-<section id="diverging-master-1" class="slide level2">
-<h2>Diverging master</h2>
-
-<img data-src="images/advance-master.png" class="stretch" alt="Divergent history"></section>
-<section id="basic-branching-and-merging" class="slide level2">
-<h2>Basic branching and merging</h2>
-</section>
-<section id="scenario" class="slide level2">
-<h2>Scenario</h2>
-<p>We’re working on a website and we’re writing a new story. Suddenly we
-receive a call about a critical issue that we have to fix.</p>
-</section>
-<section id="steps" class="slide level2">
-<h2>Steps</h2>
-<ol>
-<li>Create a new branch for a story</li>
-<li>Start working in that branch</li>
-<li>Switch to the production branch</li>
-<li>Create a branch for the hotfix</li>
-<li>Merge the hotfix branch and push to production</li>
-<li>Switch back to our story branch and continue working</li>
-<li>Merging our story</li>
-</ol>
-</section>
-<section id="a-worked-example" class="slide level2">
-<h2>A worked example</h2>
-</section>
-<section id="new-branch" class="slide level2">
-<h2>New branch</h2>
-
-<img data-src="images/basic-branching-2.png" class="stretch" alt="Creating a new branch"></section>
-<section id="commiting-a-post" class="slide level2">
-<h2>Commiting a post</h2>
-
-<img data-src="images/basic-branching-3.png" class="stretch" alt="Branch moving forward"></section>
-<section id="creating-the-hotfix-branch" class="slide level2">
-<h2>Creating the hotfix branch</h2>
-
-<img data-src="images/basic-branching-4.png" class="stretch" alt="Hotfix branch based on master"></section>
-<section id="merging-hotfix-branch" class="slide level2">
-<h2>Merging hotfix branch</h2>
-
-<img data-src="images/basic-branching-5.png" class="stretch" alt="Merging hotfix branch"></section>
-<section id="finishing-our-post" class="slide level2">
-<h2>Finishing our post</h2>
-
-<img data-src="images/basic-branching-6.png" class="stretch" alt="Work continues"></section>
-<section id="merging-our-changes" class="slide level2">
-<h2>Merging our changes</h2>
-
-<img data-src="images/basic-merging-1.png" class="stretch" alt="How to"></section>
-<section id="merging-our-changes-1" class="slide level2">
-<h2>Merging our changes</h2>
-
-<img data-src="images/basic-merging-2.png" class="stretch" alt="After"></section>
-<section id="conflicts" class="slide level2">
-<h2>Conflicts</h2>
-<p>Conflits happen more often than not. First rule: don’t panic.</p>
-</section>
-<section id="example-2" class="slide level2">
-<h2>Example</h2>
-</section></section>
-<section>
-<section id="customizing-git" class="title-slide slide level1">
-<h1>Customizing git</h1>
-
-</section>
-<section id="aliases" class="slide level2">
-<h2>Aliases</h2>
-</section>
-<section id="nice-history" class="slide level2">
-<h2>Nice history</h2>
-<pre><code>git config --global alias.glog log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset' --abbrev-commit</code></pre>
-</section>
-<section id="short-status" class="slide level2">
-<h2>Short status</h2>
-<p>git config –global alias.s status -s</p>
-</section>
-<section id="list-of-files-that-changed-in-a-commit" class="slide level2">
-<h2>List of files that changed in a commit</h2>
-<pre><code>git config --global alias.lshow diff-tree --no-commit-id --name-status -r</code></pre>
-</section>
-<section id="list-of-commits-that-modify-a-file" class="slide level2">
-<h2>List of commits that modify a file</h2>
-<p><code>git config --global filelog log -u</code></p>
-</section></section>
-<section>
-<section id="finishing-up" class="title-slide slide level1">
-<h1>Finishing up</h1>
-
-</section>
-<section id="questions" class="slide level2">
-<h2>Questions?</h2>
-</section>
-<section id="further-reading" class="slide level2">
-<h2>Further reading</h2>
-<ol>
-<li><a href="https://git-scm.com/docs">Git documentation</a></li>
-<li><a href="https://git-scm.com/book/en/v2">Pro Git</a></li>
-<li><a href="https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection">Pro
-Git - Git Tools</a></li>
-<li><a href="https://git-scm.com/book/en/v2/Git-in-Other-Environments-Graphical-Interfaces">Pro
-Git - Git in Other Environments</a></li>
-<li><a href="https://git-scm.com/videos">Git videos</a></li>
-<li><a href="https://git-scm.com/doc/ext">External links</a></li>
-</ol>
-</section></section>
-<section id="thanks-for-your-attention" class="title-slide slide level1">
-<h1>Thanks for your attention</h1>
-
-</section>
+<img data-src="images/merge_from_ofoct.png" class="stretch" alt="img"></section></section>
     </div>
   </div>
 

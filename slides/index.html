@@ -46,12 +46,18 @@
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
-<iframe width="100%" height="600px" src="https://www.appsheet.com/start/c53b2021-8e48-42f1-a287-29e68e3d837a">
+<button style="position: absolute; top: 0; right: 0; color:white; background-color: transparent; background-repeat: no-repeat; border: none; outline: none;" onclick="document.getElementById('ex1').src = document.getElementById('ex1').src;">
+↻
+</button>
+<iframe id="ex1" width="100%" height="600px" src="https://www.appsheet.com/start/c53b2021-8e48-42f1-a287-29e68e3d837a">
 </iframe>
 </section>
 <section id="section-1" class="slide level2">
 <h2></h2>
-<iframe width="100%" height="600px" src="https://www.appsheet.com/start/1c2a2d2c-ec8a-4e03-9fc4-b73a8d82a6b8">
+<button style="position: absolute; top: 0; right: 0; color:white; background-color: transparent; background-repeat: no-repeat; border: none; outline: none;" onclick="document.getElementById('ex2').src = document.getElementById('ex2').src;">
+↻
+</button>
+<iframe id="ex2" width="100%" height="600px" src="https://www.appsheet.com/start/1c2a2d2c-ec8a-4e03-9fc4-b73a8d82a6b8">
 </iframe>
 </section>
 <section id="kiedy-lowno-code-to-zły-pomysł" class="slide level2">
@@ -62,14 +68,11 @@
 <li>gdy nie lubimy płacić ;)</li>
 </ul>
 </section>
-<section id="cennik-microsoft-powerapps" class="slide level2">
-<h2>Cennik Microsoft PowerApps</h2>
+<section>
+<section id="przykład-użycia-platformy-power-apps" class="title-slide slide level1">
+<h1>Przykład użycia platformy Power Apps</h1>
 
-<img data-src="images/cena_m.png" class="stretch" alt="Cennik Microsoft PowerApps"></section>
-<section id="cennik-google-appsheet" class="slide level2">
-<h2>Cennik Google AppSheet</h2>
-
-<img data-src="images/cena_g.png" class="stretch" alt="Cennik Google AppSheet"></section>
+</section>
 <section id="tworzenie-aplikacji-low-code" class="slide level2">
 <h2>Tworzenie aplikacji low-code</h2>
 <video width="100%" height="100%" autoplay controls>
@@ -81,7 +84,39 @@
 <video width="100%" height="100%" autoplay controls>
 <source src="video/gotowa.mp4" type="video/mp4">
 </source></video>
+</section></section>
+<section>
+<section id="appsheet" class="title-slide slide level1">
+<h1>AppSheet</h1>
+
 </section>
+<section id="tworzenie-aplikacji-no-code" class="slide level2">
+<h2>Tworzenie aplikacji no-code</h2>
+<video width="100%" height="100%" autoplay controls>
+<source src="video/AppSheet.mp4" type="video/mp4">
+</source></video>
+</section>
+<section id="przykładowa-aplikacja-no-code" class="slide level2">
+<h2>Przykładowa aplikacja<br>no-code</h2>
+<button style="position: absolute; top: 0; right: 0; color:white; background-color: transparent; background-repeat: no-repeat; border: none; outline: none;" onclick="document.getElementById('noCode').src = document.getElementById('noCode').src;">
+↻
+</button>
+<iframe id="noCode" width="100%" height="500px" src="https://www.appsheet.com/start/8284be45-d1c8-4b97-abd0-7f2b3d471d3e#appName=NewApp-5979732-22-03-05&amp;group=%5B%5D&amp;page=deck&amp;sort=%5B%5D&amp;table=Arkusz1&amp;view=Arkusz1">
+</iframe>
+</section></section>
+<section>
+<section id="dla-adama" class="title-slide slide level1">
+<h1>Dla Adama</h1>
+
+</section>
+<section id="cennik-microsoft-power-apps" class="slide level2">
+<h2>Cennik Microsoft Power Apps</h2>
+
+<img data-src="images/cena_m.png" class="stretch" alt="Cennik Microsoft PowerApps"></section>
+<section id="cennik-google-appsheet" class="slide level2">
+<h2>Cennik Google AppSheet</h2>
+
+<img data-src="images/cena_g.png" class="stretch" alt="Cennik Google AppSheet"></section></section>
 <section>
 <section id="zgadywanka" class="title-slide slide level1">
 <h1>Zgadywanka</h1>
@@ -89,19 +124,51 @@
 </section>
 <section id="section-2" class="slide level2">
 <h2></h2>
-<iframe width="100%" height="600px" src="https://saltbranding.com/">
-</iframe>
+<p><img id="mainPhoto" width="auto" height="600px" style="overflow: hidden" src="images/main_page.png" alt=""></p>
+<script>
+    let images = ['images/Topics_create.png', 'images/Questions_View.png', 'images/main_page.png'];
+    let index = 0;
+    const imgElement = document.querySelector('#mainPhoto');
+    
+    function change() {
+        imgElement.src = images[index];
+        index === images.length-1 ? index = 0 : index++;
+    }
+    
+    window.onload = function () {
+        setInterval(change, 3000);
+    };
+</script>
 </section>
 <section id="section-3" class="slide level2">
 <h2></h2>
-<video width="100%" height="100%" autoplay controls>
-<source src="video/webflow.mp4" type="video/mp4">
-</source></video>
+<button style="position: absolute; top: 0; right: 0; color:white; background-color: transparent; background-repeat: no-repeat; border: none; outline: none;" onclick="document.getElementById('page').src = document.getElementById('page').src;">
+↻
+</button>
+<iframe id="page" width="100%" height="600px" src="https://saltbranding.com/">
+</iframe>
 </section>
 <section id="section-4" class="slide level2">
 <h2></h2>
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/a-Qc57S_CzY?start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</section>
+<section id="section-5" class="slide level2">
+<h2></h2>
+<button style="position: absolute; top: 0; right: 0; color:white; background-color: transparent; background-repeat: no-repeat; border: none; outline: none;" onclick="document.getElementById('game').src = document.getElementById('game').src;">
+↻
+</button>
+<iframe id="game" width="100%" height="600px" src="https://js13kgames.com/games/spacecraft/index.html">
+</iframe>
+</section>
+<section id="section-6" class="slide level2">
+<h2></h2>
 
-<img data-src="images/merge_from_ofoct.png" class="stretch" alt="img"></section></section>
+<img data-src="images/merge_from_ofoct.png" class="stretch" alt="img"></section>
+<section id="section-7" class="slide level2">
+<h2></h2>
+
+<img data-src="images/soundcloud.png" class="stretch" alt="img"></section></section>
     </div>
   </div>
 

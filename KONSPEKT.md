@@ -1,7 +1,10 @@
 # Konspekt
 
 ### Przedstawienie
-TODO
+- prezentacja o low-code oraz no-code
+- Krzysztof Baciejowski
+- Adam Bednarz
+- Damian Baliński
 
 ### Wstęp
 - w dzisiejszych czasach ogromna część naszego codziennego życia związana jest z oprogramowaniem
@@ -12,20 +15,32 @@ TODO
 ### Filmik poglądowy Power Apps
 
 ### Agenda
-TODO
+1. Czym jest low/no-code
+2. Przeznaczenie aplikacji typu low/no-code
+3. Kiedy low/no-code to zły pomysł?
+4. Zalety technologii low/no-code
+5. Wady technologii low/no-code
+6. Narzędzia do tworzenia aplikacji low-code i no-code
+7. Języki programowania używane do tworzenia aplikacji low-code
+8. Tworzenie aplikacji low-code
+9. Tworzenie aplikacji no-code
+10. Porównanie low-code do podejścia tradycyjnego
+11. Zgadywanka
+12. Podsumowanie
+13. Bibliografia
 
-### Czym jest now-code oraz low-code
+### Czym jest low/no-code
 Termin low-code po raz pierwszy pojawił się w piśmie wydanym przez firmę Forrester Research w 2014 roku.
 No-code oraz low-code to innowacyjne podejście do wytwarzania aplikacji komputerowych w taki sposób, aby większość funkcjonalności programu przygotować za pomocą interfejsu graficznego, składając aplikację z gotowych komponentów. Cały proces wytwarzania aplikacji ogranicza się do przeciągania gotowych bloków oferujących konkretne funkcjonalności.  
 
 Można powiedzieć że technologie low-code oraz no-code to dodatkowa warstwa abstrakcji w procesie wytwarzania oprogramowania, która model wizualny przekształca na gotową implementację.  
 
-Różnica pomiędzy low-code a no-code jest taka, że w aplikacjach typu low-code dopuszczamy minimalną ingerencję programisty, dzięki czemu aplikacje tego typu są znacznie bardziej elastyczne od swoich odpowiedników typu no-code. Więcej o zaletach i wadach powiemy sobie w dalszej części prezentacji.
+Różnica pomiędzy low-code a no-code jest taka, że w aplikacjach typu low-code dopuszczamy minimalną ingerencję programisty, dzięki czemu aplikacje tego typu są znacznie bardziej elastyczne od swoich odpowiedników typu no-code. Aby stworzyć aplikację w technologii no-code, nie musimy posiadać żadnej wiedzy programistycznej
 
-### Przeznaczenie aplikacji typu no-code oraz low-code
+### Przeznaczenie aplikacji typu low/no-code
 TODO
 
-### Do czego aplikacje typu no-code oraz low-code się nie nadają
+### Kiedy low/no-code to zły pomysł?
 TODO
 
 ### Zalety
@@ -40,19 +55,20 @@ TODO
 ### Języki programowania używane do tworzenia aplikacji low-code
 TODO
 
-### Autorska aplikacja no-code
+### Tworzenie aplikacji low-code
 TODO
 
-### Popularne aplikacje stworzone w technologii no-code lub low-code
+### Tworzenie aplikacji no-code
 TODO
 
 ### Porównanie technologii no-code i low-code do programowania tradycyjnego
 TODO
 
-### Quiz
+### Zgadywanka
 - **CA Application Performance Manager** - program do monitorowania wrażenia użytkowników, wykrywanie problemów z wydajnością oraz złożonością systemu
 - **Run Kitty** - gierka napisana w Power Apps
 - **Pipe dream** - gierka napisana w Power Apps
+TODO
 
 ### Podsumowanie
 TODO

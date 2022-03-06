@@ -1,27 +1,24 @@
 # Notatki do prezentacji
 
 ### Plan prezentacji
-- DB Przedstawienie
-- DB Wstęp, brakuje programistów a aplikacje trzeba robić, statystyka, 
-- DB Reklama power apps
-- DB Agenda
-- DB Co to jest no-code i low-code
-- KB Przeznaczenie, najpopularniejsze funkcjonalności
-- KB Anty-przeznaczenie
-- AB Zalety
-- AB Wady
-- AB Narzędzia do tworzenia aplikacji low-code i no-code
-- DB Języki programowania używane do tworzenia aplikacji low-code
-- KB Tworzenie aplikacji live (ale lepiej nagrać i przyspieszyć)
-- KB Prezentacja własnych aplikacji no-code, pytanie ludzi ile zajęło zrobienie aplikacji i ile by zajęło zrobienie aplikacji samemu
-- AB Porównanie, kod, czas i koszty
-- KB Quiz ze zgadywaniem czy aplikacja jest napisana w no-code czy nie jest
-- DB Podsumowanie
-- Bibliografia
-
-### Co to w ogóle jest
-- low-code - do stworzenia aplikacji wymagana jest podstawowa wiedza z zakresu programowania, jednak nie wymaga się wiedzy specjalistycznej
-- no-code - do stworzenia aplikacji nie potrzeba żadnej wiedzy programistycznej
+<!-- [X] jeśli sekcja jest gotowa w slides.md oraz KONSPEKT.md -->
+- [X] DB Przedstawienie
+- [X] DB Wstęp
+- [X] DB Reklama power apps
+- [X] DB Agenda
+- [X] DB Czym jest low/no-code
+- [ ] KB Przeznaczenie aplikacji typu low/no-code
+- [ ] KB Kiedy low/no-code to zły pomysł?
+- [ ] AB Zalety
+- [ ] AB Wady
+- [ ] AB Narzędzia do tworzenia aplikacji low-code i no-code
+- [ ] DB Języki programowania używane do tworzenia aplikacji low-code
+- [ ] KB Tworzenie aplikacji low-code
+- [ ] KB Tworzenie aplikacji no-code
+- [ ] AB Porównanie technologii no-code i low-code do programowania tradycyjnego
+- [ ] KB Zgadywanka
+- [ ] DB Podsumowanie
+- [ ] Bibliografia
 
 ### Zalety
 - aplikacji nie muszą tworzyć drodzy programiści, mniejsze koszty, szybsza implementacja
@@ -43,10 +40,6 @@
 - spadki na wydajności spowodowane dodatkową warstwą abstrakcji, ponieważ wszystko jest generyczne, nie może być szybkie, programy działają wolniej
 - dodatkowe koszty subskrypcji platformy low-code lub no-code
 - problemy z debugowaniem aplikacji
-
-### Przeznaczenie
-- no-code - użytkownicy biznesowi
-- low-code - programiści, chcący zaoszczędzić czas
 
 ### Najpopularniejsze funkcjonalności
 - narzędzia dla HR
@@ -73,8 +66,3 @@
 - https://thunkable.com/#/
 - https://webflow.com/ - strony internetowe
 - https://www.adalo.com/ - aplikacje mobilne
-
-### Przykłady aplikacji
-- Snapchat???
-- Pokemon GO???
-- Ikea???

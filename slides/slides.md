@@ -6,7 +6,30 @@
 ![No code/Low code](images/no_code_low_code.png){.stretch}\
 
 ##
+![No code/Low code](images/it_market_size.png){.stretch}\
+
+##
 <iframe width=100% height=600px src="https://www.youtube.com/embed/sEHsnVIx31E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# Agenda
+##
+1. Czym jest low/no-code
+2. Przeznaczenie aplikacji typu low/no-code
+3. Kiedy low/no-code to zły pomysł?
+4. Zalety technologii low/no-code
+5. Wady technologii low/no-code
+6. Narzędzia do tworzenia aplikacji low-code i no-code
+7. Języki programowania używane do tworzenia aplikacji low-code
+
+##
+8. Tworzenie aplikacji low-code
+9. Tworzenie aplikacji no-code
+10. Porównanie low-code do podejścia tradycyjnego
+11. Zgadywanka
+12. Podsumowanie
+13. Bibliografia
+
+# Czym jest<br> low/no-code
 
 ##
 ![No code/Low code](images/drag_and_drop.svg){.stretch}\

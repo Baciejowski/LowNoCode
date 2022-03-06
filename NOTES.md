@@ -7,16 +7,16 @@
 - [X] DB Reklama power apps
 - [X] DB Agenda
 - [X] DB Czym jest low/no-code
-- [ ] KB Przeznaczenie aplikacji typu low/no-code
-- [ ] KB Kiedy low/no-code to zły pomysł?
+- [X] KB Przeznaczenie aplikacji typu low/no-code
+- [X] KB Kiedy low/no-code to zły pomysł?
 - [ ] AB Zalety
 - [ ] AB Wady
 - [ ] AB Narzędzia do tworzenia aplikacji low-code i no-code
 - [X] DB Języki programowania używane do tworzenia aplikacji low-code
-- [ ] KB Tworzenie aplikacji low-code
-- [ ] KB Tworzenie aplikacji no-code
+- [X] KB Tworzenie aplikacji low-code
+- [X] KB Tworzenie aplikacji no-code
 - [ ] AB Porównanie technologii no-code i low-code do programowania tradycyjnego
-- [ ] KB Zgadywanka
+- [X] KB Zgadywanka
 - [ ] DB Podsumowanie
 - [ ] Bibliografia
 

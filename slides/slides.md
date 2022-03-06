@@ -8,12 +8,12 @@
 - Na wewnętrzny użytek spółki
 
 ##
-<button style="position: absolute; top: 0; right: 0; color:white; background-color: transparent; background-repeat: no-repeat; border: none; outline: none;" onclick="document.getElementById('ex1').src = document.getElementById('ex1').src;">&#8635;</button>
+<button style="position: absolute; top: 0; right: 0; color:white; background-color: transparent; background-repeat: no-repeat; border: none; outline: none;" onclick="document.getElementById('ex1').src='https://www.appsheet.com/start/c53b2021-8e48-42f1-a287-29e68e3d837a'">&#8635;</button>
 <iframe id="ex1" width=100% height=600px src="https://www.appsheet.com/start/c53b2021-8e48-42f1-a287-29e68e3d837a">
 </iframe>
 
 ##
-<button style="position: absolute; top: 0; right: 0; color:white; background-color: transparent; background-repeat: no-repeat; border: none; outline: none;" onclick="document.getElementById('ex2').src = document.getElementById('ex2').src;">&#8635;</button>
+<button style="position: absolute; top: 0; right: 0; color:white; background-color: transparent; background-repeat: no-repeat; border: none; outline: none;" onclick="document.getElementById('ex2').src='https://www.appsheet.com/start/1c2a2d2c-ec8a-4e03-9fc4-b73a8d82a6b8'">&#8635;</button>
 <iframe id="ex2" width=100% height=600px src="https://www.appsheet.com/start/1c2a2d2c-ec8a-4e03-9fc4-b73a8d82a6b8">
 </iframe>
 
@@ -37,8 +37,8 @@
 <video width=100% height=100% autoplay controls><source src="video/AppSheet.mp4" type="video/mp4"></video>
 
 ## Przykładowa aplikacja<br>no-code
-<button style="position: absolute; top: 0; right: 0; color:white; background-color: transparent; background-repeat: no-repeat; border: none; outline: none;" onclick="document.getElementById('noCode').src = document.getElementById('noCode').src;">&#8635;</button>
-<iframe id="noCode" width=100% height=500px src="https://www.appsheet.com/start/8284be45-d1c8-4b97-abd0-7f2b3d471d3e#appName=NewApp-5979732-22-03-05&group=%5B%5D&page=deck&sort=%5B%5D&table=Arkusz1&view=Arkusz1"></iframe>
+<button style="position: absolute; top: 0; right: 0; color:white; background-color: transparent; background-repeat: no-repeat; border: none; outline: none;" onclick="document.getElementById('noCode').src='https://www.appsheet.com/start/8284be45-d1c8-4b97-abd0-7f2b3d471d3e'">&#8635;</button>
+<iframe id="noCode" width=100% height=500px src="https://www.appsheet.com/start/8284be45-d1c8-4b97-abd0-7f2b3d471d3e"></iframe>
 
 
 # Dla Adama
@@ -69,7 +69,7 @@
 </script>
 
 ##
-<button style="position: absolute; top: 0; right: 0; color:white; background-color: transparent; background-repeat: no-repeat; border: none; outline: none;" onclick="document.getElementById('page').src = document.getElementById('page').src;">&#8635;</button>
+<button style="position: absolute; top: 0; right: 0; color:white; background-color: transparent; background-repeat: no-repeat; border: none; outline: none;" onclick="document.getElementById('page').src='https://saltbranding.com/'">&#8635;</button>
 <iframe id="page" width=100% height=600px src="https://saltbranding.com/">
 </iframe>
 
@@ -77,7 +77,7 @@
 <iframe width=100% height=600px src="https://www.youtube.com/embed/a-Qc57S_CzY?start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ##
-<button style="position: absolute; top: 0; right: 0; color:white; background-color: transparent; background-repeat: no-repeat; border: none; outline: none;" onclick="document.getElementById('game').src = document.getElementById('game').src;">&#8635;</button>
+<button style="position: absolute; top: 0; right: 0; color:white; background-color: transparent; background-repeat: no-repeat; border: none; outline: none;" onclick="document.getElementById('game').src='https://js13kgames.com/games/spacecraft/index.html'">&#8635;</button>
 <iframe id="game" width=100% height=600px src="https://js13kgames.com/games/spacecraft/index.html"></iframe>
 
 ##

@@ -50,7 +50,7 @@
 </iframe>
 
 ## Kiedy low/no-code to zły pomysł?
-- gdy potrzeba podnisionego poziomu bezpieczeństwa
+- gdy potrzeba podniesionego poziomu bezpieczeństwa
 - gdy aplikacja musi przetwarzać dane
 - gdy nie lubimy płacić ;)
 
@@ -254,6 +254,17 @@ Workflow Visual Language
 
 ##
 ![img](images/soundcloud.png){.stretch}\
+
+# Podsumowanie
+
+##
+### Szybksza implementacja w zamian za mniejszą elastyczność
+
+##
+### Dodatkowy koszt systemu w zamian za czas programistów
+
+##
+### Otwarcie świata IT na ludzi z biznesu
 
 # Bibliografia
 ##

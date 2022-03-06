@@ -54,6 +54,9 @@
 - gdy aplikacja musi przetwarzać dane
 - gdy nie lubimy płacić ;)
 
+## Języki programowania<br> low-code
+![No code/Low code](images/programming_languages.png){.stretch}\
+
 # Power Apps
 
 ## Tworzenie aplikacji<br> low-code

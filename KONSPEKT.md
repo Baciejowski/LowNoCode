@@ -53,7 +53,13 @@ TODO
 TODO
 
 ### Języki programowania używane do tworzenia aplikacji low-code
-TODO
+W przeciwieństwie do technologii no-code - low-code pozwala na ingerencję programisty w generowany kod. Do najbardziej popularnych języków programowania wykorzystywanych do tego celu zalicza się:
+- Java
+- JavaScript
+- C#
+- Python
+- ...
+A więc technologie używane do implementacji aplikacji low-code pokrywają się z językami wykorzystywanymi obecnie w branży IT.
 
 ### Tworzenie aplikacji low-code
 TODO

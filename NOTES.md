@@ -12,7 +12,7 @@
 - [ ] AB Zalety
 - [ ] AB Wady
 - [ ] AB Narzędzia do tworzenia aplikacji low-code i no-code
-- [ ] DB Języki programowania używane do tworzenia aplikacji low-code
+- [X] DB Języki programowania używane do tworzenia aplikacji low-code
 - [ ] KB Tworzenie aplikacji low-code
 - [ ] KB Tworzenie aplikacji no-code
 - [ ] AB Porównanie technologii no-code i low-code do programowania tradycyjnego

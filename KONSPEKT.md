@@ -38,10 +38,14 @@ Można powiedzieć że technologie low-code oraz no-code to dodatkowa warstwa ab
 Różnica pomiędzy low-code a no-code jest taka, że w aplikacjach typu low-code dopuszczamy minimalną ingerencję programisty, dzięki czemu aplikacje tego typu są znacznie bardziej elastyczne od swoich odpowiedników typu no-code. Aby stworzyć aplikację w technologii no-code, nie musimy posiadać żadnej wiedzy programistycznej
 
 ### Przeznaczenie aplikacji typu low/no-code
-TODO
+- MVP, czyli by sprawdzić za pół darmo czy sam koncept i główne założenia aplikacji są ok. Takie cudo można pokazać inwestorowi i zobaczyć czy jest zachwycony czy wyrzuci nas z biura.
+- Generalnie (co widać zwłasza w rozwiązaniu od Google) najlepiej sprawdza się tworzenie prostych aplikacji, które nie przetwarzają danych, tylko dokonują prostego odczytu i zapisu do bazy, przetwarzanie (jeśli występuje) jest przeważnie skrajnie uproszczone. Słowem podsumowania: sprawdza się dobrze jako ekwiwalent formatki w Accessie.
+- Mając na względzie powyższe + mnóstwo papierologii w przedsiębiorstwach nadają się jako aplikacje na urzytek wewnętrzny, innymi słowy przenosimy np. podania o urlop, rejestr wyjść, grafikowanie, rejestrowanie stanów magazynowych do takiej apki.
 
 ### Kiedy low/no-code to zły pomysł?
-TODO
+- Najgłupszym możliwym użyciem tych platform byłaby np. bankowość czy państwowa biurokracja tam gdzie przetwarzane są dane osobowe. Dlaczego? Otóż nie mamy pełnej kontroli nad tym jak aplikacja działa, włączając to, że wszystkie zależności aktualizują się automatycznie.
+- Gdy aplikacja miałaby przetwarzać dane w skomplikowany sposób (np. Power Apps nie policzy wam silni, o ile nie staniecie na głowie), to generalnie masochizm, nie mniej są rozwiązania które pozwalają na przykład na uczenie maszynowe.
+- Gdy liczymy się z pieniędzmi - niby oszczędzamy na długowłosym programiście w japonkach, ale musimy płacić dolary Microsoftowi (trzeba policzyć czy to ma sens)
 
 ### Zalety
 TODO
@@ -62,19 +66,21 @@ W przeciwieństwie do technologii no-code - low-code pozwala na ingerencję prog
 A więc technologie używane do implementacji aplikacji low-code pokrywają się z językami wykorzystywanymi obecnie w branży IT.
 
 ### Tworzenie aplikacji low-code
-TODO
+Tu raczej będę się opierać na filmiku, tak więc ten...
 
 ### Tworzenie aplikacji no-code
-TODO
+Jak wyżej ;)
 
 ### Porównanie technologii no-code i low-code do programowania tradycyjnego
 TODO
 
 ### Zgadywanka
-- **CA Application Performance Manager** - program do monitorowania wrażenia użytkowników, wykrywanie problemów z wydajnością oraz złożonością systemu
+- **Moja praca inżynierska** - oczywiście że "High" code ;D
+- Losowa strona z internetu wykonana przy użyciu webflow
 - **Run Kitty** - gierka napisana w Power Apps
-- **Pipe dream** - gierka napisana w Power Apps
-TODO
+- **Spacecraft** - mała gierka w js
+- **Princeton concessions delivery service** - apka do zamawiania jedzenia zrobiona w glade.
+- **Soundcloud** - nie wiem w czym, ale na pewno profsjonalnie zrobiona
 
 ### Podsumowanie
 TODO

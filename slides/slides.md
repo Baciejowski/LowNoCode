@@ -57,6 +57,136 @@
 ## Języki programowania<br> low-code
 ![No code/Low code](images/programming_languages.png){.stretch}\
 
+# Zalety
+
+##
+### Odciążenie wykwalifikowanych programistów
+
+##
+### Redukcja czasu i kosztów wytwarzania oprogramowania
+
+##
+### Pole działania w obrębie jednej platformy na rózne systemy
+
+##
+### Odporność na zachodzące zmiany
+
+##
+### Możliwość rozszerzania o bardziej zaawansowane funkcje
+
+##
+### Skrócenie drogi od klienta do wykonawcy
+
+![project_management](images/prons.png)\
+
+## 
+### Trzy najczęściej wymieniane zalety
+
+#. Niski próg wejścia
+#. Zmniejszenie kosztów implementacji
+#. Bogate i funkcjonalne komponenty
+
+# Wady
+
+##
+### Węższe pole działania w trakcie budowania aplikacji
+
+##
+### Potrzeba dostosywowania projektu do możliwości platformy
+
+##
+### Brak pełnej swobody nad zarządzaniem aplikacją
+
+##
+### Vendor Lock-In (Uzależnienie od dostawcy)
+
+##
+### Spadki wydajności działania i wzrost kosztów utrzymania
+
+##
+### Ograniczona kompatybilność z innymi środowiskami
+
+##
+### Trzy najczęściej wymieniane wady
+
+#. Wysokie ceny usług
+#. Ograniczona personalizacja
+#. Spadek wydajności
+
+# Narzędzia
+
+## Zoho Creator
+(Low Code)
+
+Deluge - skryptowy język do tworzenia workflowów
+
+##
+![Wygląd Zoho](images/zoho.jpg)\
+
+##
+![Cennik Zoho](images/zoho_price.png)\
+
+## Mendix
+(Low Code)
+
+Workflow Visual Language
+
+##
+![Wygląd Mendix](images/mendix.webp)\
+
+##
+![Cennik Mendix](images/mendix_price.png)\
+
+## Microsoft PowerApps
+(Low Code)
+
+#. Pełna kompatybilność z usługami Microsoft
+#. Microsoft Power Fx language
+
+##
+![Wygląd Microsoft PowerApps](images/powerapps.png)\
+
+##
+![Cennik Microsoft PowerApps](images/cena_m.png)\
+
+
+
+## Amazon Honeycode
+(No Code)
+
+#. Wbudowana baza danych oparta na arkuszach kalkulacyjnych
+#. Moduł Automations (triggery)
+
+##
+![Wygląd Honeycode](images/honeycode.png)\
+
+##
+![Cennik Honeycode](images/honeycode_price.png)\
+
+## Google AppSheet
+(No Code)
+
+#. Powiązanie z Google Workspace
+#. Brak drag and drop UI
+
+##
+![Wygląd Google AppSheet](images/appsheet.png)\
+
+##
+![Cennik Google AppSheet](images/cena_g.png)\
+
+## Bubble.io
+(No Code)
+
+#. Baza danych AWS
+#. Łączenie się z innymi serwisami
+
+##
+![Wygląd Honeycode](images/bubble.png)\
+
+##
+![Cennik Bubble](images/bubble_price.png)\
+
 # Power Apps
 
 ## Tworzenie aplikacji<br> low-code
@@ -74,15 +204,18 @@
 ## Przykładowa aplikacja<br>no-code
 <button style="position: absolute; top: 0; right: 0; color:white; background-color: transparent; background-repeat: no-repeat; border: none; outline: none;" onclick="document.getElementById('noCode').src='https://www.appsheet.com/start/8284be45-d1c8-4b97-abd0-7f2b3d471d3e'">&#8635;</button>
 <iframe id="noCode" width=100% height=500px src="https://www.appsheet.com/start/8284be45-d1c8-4b97-abd0-7f2b3d471d3e"></iframe>
+# Porównanie
 
+##
+![Prognoza wartości](images/value_predictions.png)\
 
-# Dla Adama
-## Cennik Microsoft Power Apps
-![Cennik Microsoft PowerApps](images/cena_m.png){.stretch}\
+<span style="font-size: xx-small; "> Source: www.spreadsheetweb.com/how-big-is-the-global-low-code-no-code-market-and-how-fast-is-it-growing</span> 
 
-## Cennik Google AppSheet
-![Cennik Google AppSheet](images/cena_g.png){.stretch}\
+##
+![Porównanie](images/comparison.png){.stretch}\
 
+##
+![Demokratyzacja IT](images/democ.webp){.stretch}\
 
 # Zgadywanka
 ##

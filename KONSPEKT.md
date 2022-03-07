@@ -56,15 +56,6 @@ TODO
 ### Narzędzia do tworzenia aplikacji no-code oraz low-code
 TODO
 
-### Języki programowania używane do tworzenia aplikacji low-code
-W przeciwieństwie do technologii no-code - low-code pozwala na ingerencję programisty w generowany kod. Do najbardziej popularnych języków programowania wykorzystywanych do tego celu zalicza się:
-- Java
-- JavaScript
-- C#
-- Python
-- ...
-A więc technologie używane do implementacji aplikacji low-code pokrywają się z językami wykorzystywanymi obecnie w branży IT.
-
 ### Tworzenie aplikacji low-code
 Tu raczej będę się opierać na filmiku, tak więc ten...
 
@@ -86,6 +77,14 @@ TODO
 1. Szybksza implementacja w zamian za mniejszą elastyczność - Dzięki technologiom low-code oraz no-code firma jest w stanie szybciej przygotować działający produkt, jednak rozwiązanie to nie będzie w pełni elastyczne oraz integrowalne jak w przypadu standardowej implementacji systemu.
 2. Dodatkowy koszt systemu w zamian za czas programistów - większość platform low-code oraz no-code działa na zasadzie subskrypcji, przez co firma musi się liczyć z dodatkowymi kosztami. W zamian za to programiści spędzają mniej szasu na implementacji niektórych powtarzalnych aplikacji biznesowych, dzięki czemu realnie firma posiada większe zasoby do realizacji innych projektów.
 3. Otwarcie świata IT na ludzi z biznesu - ponieważ aplikacje no-code nie wymagają pisania kodu, takie aplikacje w całości mogą być przygotowywane przez ludzi zajmujących się kontaktem z klientem. Dzięki temu podejściu zniesiona zostaje odwiedzna granica pomiędzy programistami a ludźmi z biznesu.
+4. Języki programowania używane do tworzenia aplikacji low-code
+W przeciwieństwie do technologii no-code - low-code pozwala na ingerencję programisty w generowany kod. Do najbardziej popularnych języków programowania wykorzystywanych do tego celu zalicza się:
+- Java
+- JavaScript
+- C#
+- Python
+- ...
+  A więc technologie używane do implementacji aplikacji low-code pokrywają się z językami wykorzystywanymi obecnie w branży IT.
 
 ### Bibliografia
 

@@ -54,9 +54,6 @@
 - gdy aplikacja musi przetwarzać dane
 - gdy nie lubimy płacić ;)
 
-## Języki programowania<br> low-code
-![No code/Low code](images/programming_languages.png){.stretch}\
-
 # Zalety
 
 ##
@@ -150,7 +147,6 @@ Workflow Visual Language
 ![Cennik Microsoft PowerApps](images/cena_m.png)\
 
 
-
 ## Amazon Honeycode
 (No Code)
 
@@ -204,6 +200,7 @@ Workflow Visual Language
 ## Przykładowa aplikacja<br>no-code
 <button style="position: absolute; top: 0; right: 0; color:white; background-color: transparent; background-repeat: no-repeat; border: none; outline: none;" onclick="document.getElementById('noCode').src='https://www.appsheet.com/start/8284be45-d1c8-4b97-abd0-7f2b3d471d3e'">&#8635;</button>
 <iframe id="noCode" width=100% height=500px src="https://www.appsheet.com/start/8284be45-d1c8-4b97-abd0-7f2b3d471d3e"></iframe>
+
 # Porównanie
 
 ##
@@ -266,10 +263,21 @@ Workflow Visual Language
 ##
 ### Otwarcie świata IT na ludzi z biznesu
 
+## Języki programowania<br> low-code
+![No code/Low code](images/programming_languages.png){.stretch}\
+
 # Bibliografia
 ##
 ```
 New development platforms emerge for customer-facing applications. Forrester (2014) - Clay Richardson, John R Rymer, Christopher Mines, Alex Cullen, Dominique Whittaker
+```
+
+```
+Low-code as enabler of digital transformation in manufacturing industry (2019) - R Sanchis, Ó García-Perales, F Fraile, R Poler
+```
+
+```
+Adoption and Usability of Low-Code/No-Code Development Tools (2020) - Beranic, Tina, Rek, Patrik Heričko, Marjan
 ```
 
 ```

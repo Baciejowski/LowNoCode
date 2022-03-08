@@ -19,15 +19,14 @@
 4. Zalety technologii low/no-code
 5. Wady technologii low/no-code
 6. Narzędzia do tworzenia aplikacji low-code i no-code
-7. Języki programowania używane do tworzenia aplikacji low-code
 
 ##
-8. Tworzenie aplikacji low-code
-9. Tworzenie aplikacji no-code
-10. Porównanie low-code do podejścia tradycyjnego
-11. Zgadywanka
-12. Podsumowanie
-13. Bibliografia
+7. Tworzenie aplikacji low-code
+8. Tworzenie aplikacji no-code
+9. Porównanie low-code do podejścia tradycyjnego
+10. Zgadywanka
+11. Podsumowanie 
+12. Bibliografia
 
 # Czym jest<br> low/no-code
 
@@ -53,9 +52,6 @@
 - gdy potrzeba podniesionego poziomu bezpieczeństwa
 - gdy aplikacja musi przetwarzać dane
 - gdy nie lubimy płacić ;)
-
-## Języki programowania<br> low-code
-![No code/Low code](images/programming_languages.png){.stretch}\
 
 # Zalety
 
@@ -86,6 +82,8 @@
 #. Zmniejszenie kosztów implementacji
 #. Bogate i funkcjonalne komponenty
 
+<span style="font-size: xx-small; "> Source: Characteristics and Challenges of Low-Code Development Perspective (2021) - Yajing Luo, Peng Liang, Chong Wang, Mojtaba Shahin, Jing Zhan</span>
+
 # Wady
 
 ##
@@ -112,6 +110,8 @@
 #. Wysokie ceny usług
 #. Ograniczona personalizacja
 #. Spadek wydajności
+
+<span style="font-size: xx-small; "> Source: Characteristics and Challenges of Low-Code Development Perspective (2021) - Yajing Luo, Peng Liang, Chong Wang, Mojtaba Shahin, Jing Zhan</span>
 
 # Narzędzia
 
@@ -148,7 +148,6 @@ Workflow Visual Language
 
 ##
 ![Cennik Microsoft PowerApps](images/cena_m.png)\
-
 
 
 ## Amazon Honeycode
@@ -204,6 +203,7 @@ Workflow Visual Language
 ## Przykładowa aplikacja<br>no-code
 <button style="position: absolute; top: 0; right: 0; color:white; background-color: transparent; background-repeat: no-repeat; border: none; outline: none;" onclick="document.getElementById('noCode').src='https://www.appsheet.com/start/8284be45-d1c8-4b97-abd0-7f2b3d471d3e'">&#8635;</button>
 <iframe id="noCode" width=100% height=500px src="https://www.appsheet.com/start/8284be45-d1c8-4b97-abd0-7f2b3d471d3e"></iframe>
+
 # Porównanie
 
 ##
@@ -212,10 +212,14 @@ Workflow Visual Language
 <span style="font-size: xx-small; "> Source: www.spreadsheetweb.com/how-big-is-the-global-low-code-no-code-market-and-how-fast-is-it-growing</span> 
 
 ##
-![Porównanie](images/comparison.png){.stretch}\
+![Porównanie](images/comparison.png)\
+
+<span style="font-size: xx-small; "> Source: www.blogs.sap.com/2020/09/11/unveiling-sap-intelligent-rpa-2.0-hyperautomation-for-everyone/</span>
 
 ##
-![Demokratyzacja IT](images/democ.webp){.stretch}\
+![Demokratyzacja IT](images/democ.webp)\
+
+<span style="font-size: xx-small; "> Source: www.martechalliance.com/stories/the-rising-of-no-code-or-low-code-as-martech-solutions-for-digital-marketers</span>
 
 # Zgadywanka
 ##
@@ -266,20 +270,36 @@ Workflow Visual Language
 ##
 ### Otwarcie świata IT na ludzi z biznesu
 
+## Języki programowania<br> low-code
+![No code/Low code](images/programming_languages.png){.stretch}\
+
+<span style="font-size: xx-small; position: absolute; bottom: 0; left: 130px; ">Yajing Luo, Peng Liang, Chong Wang, Mojtaba Shahin, Jing Zhan (2021). Characteristics and Challenges of Low-Code Development: The
+Practitioners - arXiv repository</span>
+
 # Bibliografia
 ##
 ```
-Richardson, C., et al., "New development platforms emerge for customer-facing applications." Forrester: Cambridge, MA, USA, vol. 15 (2014).
+New development platforms emerge for customer-facing applications. Forrester (2014) - Clay Richardson, John R Rymer, Christopher Mines, Alex Cullen, Dominique Whittaker
 ```
 
 ```
-Luo, Y., et al., "Characteristics and Challenges of Low-Code Development: The Practitioners' Perspective." Proceedings of the 15th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM). 2021.
+Low-code as enabler of digital transformation in manufacturing industry (2019) - R Sanchis, Ó García-Perales, F Fraile, R Poler
 ```
 
 ```
-Kubera, G., "Low-code/No-code - przyszłość tworzenia aplikacji" URL: https://www.computerworld.pl/news/Low-code-no-code-przyszlosc-tworzenia-aplikacji,424154.html [dostęp: 2022-03-05]
+Adoption and Usability of Low-Code/No-Code Development Tools (2020) - Beranic, Tina, Rek, Patrik Heričko, Marjan
 ```
 
 ```
-Johannessen, C., Davenport, T., "When Low-Code/No-Code Development Works and When It Doesn’t" URL: https://hbr.org/2021/06/when-low-code-no-code-development-works-and-when-it-doesnt [dostęp: 2022-03-05]
+Characteristics and Challenges of Low-Code Development: The Practitioners’ Perspective (2021) - Yajing Luo, Peng Liang, Chong Wang, Mojtaba Shahin, Jing Zhan
+```
+
+```
+Low-code/No-code - przyszłość tworzenia aplikacji - Grzegorz Kubera
+[dostęp: 2022-03-05]
+```
+
+```
+When Low-Code/No-Code Development Works and When It Doesn’t - Chris Johannessen, Tom Davenport
+[dostęp: 2022-03-05]
 ```

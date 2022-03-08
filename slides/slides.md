@@ -86,9 +86,7 @@
 #. Zmniejszenie kosztów implementacji
 #. Bogate i funkcjonalne komponenty
 
-
-<span style="font-size: xx-small; display: block;">Beranic, T., ae al. "Adoption and usability of low-code/no-code development tools."</span>
-<span style="font-size: xx-small; display: block;">Luo, Y., et al., "Characteristics and Challenges of Low-Code Development: The Practitioners' Perspective."</span> 
+<span style="font-size: xx-small;border-top: 1px solid white; padding-top: 5px">Luo, Y., et al., "Characteristics and Challenges of Low-Code Development: The Practitioners' Perspective."</span> 
 
 # Wady
 
@@ -117,7 +115,7 @@
 #. Ograniczona personalizacja
 #. Spadek wydajności
 
-<span style="font-size: xx-small; "> Source: Characteristics and Challenges of Low-Code Development Perspective (2021) - Yajing Luo, Peng Liang, Chong Wang, Mojtaba Shahin, Jing Zhan</span>
+<span style="font-size: xx-small;border-top: 1px solid white; padding-top: 5px">Luo, Y., et al., "Characteristics and Challenges of Low-Code Development: The Practitioners' Perspective."</span> 
 
 # Narzędzia
 
@@ -215,17 +213,17 @@ Workflow Visual Language
 ##
 ![Prognoza wartości](images/value_predictions.png)\
 
-<span style="font-size: xx-small; "> Source: www.spreadsheetweb.com/how-big-is-the-global-low-code-no-code-market-and-how-fast-is-it-growing</span> 
+<span style="font-size: xx-small; ">Source: www.spreadsheetweb.com/how-big-is-the-global-low-code-no-code-market-and-how-fast-is-it-growing</span> 
 
 ##
 ![Porównanie](images/comparison.png)\
 
-<span style="font-size: xx-small; "> Source: www.blogs.sap.com/2020/09/11/unveiling-sap-intelligent-rpa-2.0-hyperautomation-for-everyone/</span>
+<span style="font-size: xx-small; ">Source: www.blogs.sap.com/2020/09/11/unveiling-sap-intelligent-rpa-2.0-hyperautomation-for-everyone/</span>
 
 ##
 ![Demokratyzacja IT](images/democ.webp)\
 
-<span style="font-size: xx-small; "> Source: www.martechalliance.com/stories/the-rising-of-no-code-or-low-code-as-martech-solutions-for-digital-marketers</span>
+<span style="font-size: xx-small; ">Source: www.martechalliance.com/stories/the-rising-of-no-code-or-low-code-as-martech-solutions-for-digital-marketers</span>
 
 # Zgadywanka
 ##
@@ -279,8 +277,7 @@ Workflow Visual Language
 ## Języki programowania<br> low-code
 ![No code/Low code](images/programming_languages.png){.stretch}\
 
-<span style="font-size: xx-small; position: absolute; bottom: 0; left: 130px; ">Yajing Luo, Peng Liang, Chong Wang, Mojtaba Shahin, Jing Zhan (2021). Characteristics and Challenges of Low-Code Development: The
-Practitioners - arXiv repository</span>
+<span style="font-size: xx-small;">Source: Luo, Y., et al., "Characteristics and Challenges of Low-Code Development: The Practitioners' Perspective."</span>
 
 # Bibliografia
 ##

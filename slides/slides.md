@@ -279,27 +279,25 @@ Practitioners - arXiv repository</span>
 # Bibliografia
 ##
 ```
-New development platforms emerge for customer-facing applications. Forrester (2014) - Clay Richardson, John R Rymer, Christopher Mines, Alex Cullen, Dominique Whittaker
+Richardson, C., et al., "New development platforms emerge for customer-facing applications." Forrester: Cambridge, MA, USA, vol. 15 (2014).
 ```
 
 ```
-Low-code as enabler of digital transformation in manufacturing industry (2019) - R Sanchis, Ó García-Perales, F Fraile, R Poler
+Sanchis, R., et al., "Low-code as enabler of digital transformation in manufacturing industry." Applied Sciences vol. 10 (2020).
 ```
 
 ```
-Adoption and Usability of Low-Code/No-Code Development Tools (2020) - Beranic, Tina, Rek, Patrik Heričko, Marjan
+Beranic, T., Rek, P., and Heričko, M., "Adoption and usability of low-code/no-code development tools." Central European Conference on Information and Intelligent Systems. 2020.
 ```
 
 ```
-Characteristics and Challenges of Low-Code Development: The Practitioners’ Perspective (2021) - Yajing Luo, Peng Liang, Chong Wang, Mojtaba Shahin, Jing Zhan
+Luo, Y., et al., "Characteristics and Challenges of Low-Code Development: The Practitioners' Perspective." Proceedings of the 15th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM). 2021.
 ```
 
 ```
-Low-code/No-code - przyszłość tworzenia aplikacji - Grzegorz Kubera
-[dostęp: 2022-03-05]
+Kubera, G., "Low-code/No-code - przyszłość tworzenia aplikacji" URL: https://www.computerworld.pl/news/Low-code-no-code-przyszlosc-tworzenia-aplikacji,424154.html [dostęp: 2022-03-05]
 ```
 
 ```
-When Low-Code/No-Code Development Works and When It Doesn’t - Chris Johannessen, Tom Davenport
-[dostęp: 2022-03-05]
+Johannessen, C. and Davenport, T., "When Low-Code/No-Code Development Works and When It Doesn’t" URL: https://hbr.org/2021/06/when-low-code-no-code-development-works-and-when-it-doesnt [dostęp: 2022-03-05]
 ```

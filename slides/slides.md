@@ -38,6 +38,8 @@
 - Proste aplikacje bazodanowe 
 - Na wewnętrzny użytek spółki
 
+<span style="font-size: xx-small;border-top: 1px solid white; padding-top: 5px">Beranic, T., ae al. "Adoption and usability of low-code/no-code development tools." oraz Luo, Y., et al., "Characteristics and Challenges of Low-Code Development: The Practitioners' Perspective."</span> 
+
 ##
 <button style="position: absolute; top: 0; right: 0; color:white; background-color: transparent; background-repeat: no-repeat; border: none; outline: none;" onclick="document.getElementById('ex1').src='https://www.appsheet.com/start/c53b2021-8e48-42f1-a287-29e68e3d837a'">&#8635;</button>
 <iframe id="ex1" width=100% height=600px src="https://www.appsheet.com/start/c53b2021-8e48-42f1-a287-29e68e3d837a">
@@ -52,6 +54,8 @@
 - gdy potrzeba podniesionego poziomu bezpieczeństwa
 - gdy aplikacja musi przetwarzać dane
 - gdy nie lubimy płacić ;)
+
+<span style="font-size: xx-small;border-top: 1px solid white; padding-top: 5px">Beranic, T., ae al. "Adoption and usability of low-code/no-code development tools." oraz Luo, Y., et al., "Characteristics and Challenges of Low-Code Development: The Practitioners' Perspective."</span> 
 
 # Zalety
 
@@ -82,7 +86,9 @@
 #. Zmniejszenie kosztów implementacji
 #. Bogate i funkcjonalne komponenty
 
-<span style="font-size: xx-small; "> Source: Characteristics and Challenges of Low-Code Development Perspective (2021) - Yajing Luo, Peng Liang, Chong Wang, Mojtaba Shahin, Jing Zhan</span>
+
+<span style="font-size: xx-small; display: block;">Beranic, T., ae al. "Adoption and usability of low-code/no-code development tools."</span>
+<span style="font-size: xx-small; display: block;">Luo, Y., et al., "Characteristics and Challenges of Low-Code Development: The Practitioners' Perspective."</span> 
 
 # Wady
 

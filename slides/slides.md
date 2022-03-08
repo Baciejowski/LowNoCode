@@ -275,9 +275,10 @@ Workflow Visual Language
 ### Otwarcie świata IT na ludzi z biznesu
 
 ## Języki programowania<br> low-code
+
 ![No code/Low code](images/programming_languages.png){.stretch}\
 
-<span style="font-size: xx-small;">Source: Luo, Y., et al., "Characteristics and Challenges of Low-Code Development: The Practitioners' Perspective."</span>
+<span style="font-size: xx-small; position: absolute; bottom: 0; left:0; right: 0;">Source: Luo, Y., et al., "Characteristics and Challenges of Low-Code Development: The Practitioners' Perspective."</span>
 
 # Bibliografia
 ##

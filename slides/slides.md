@@ -273,6 +273,9 @@ Workflow Visual Language
 ## Języki programowania<br> low-code
 ![No code/Low code](images/programming_languages.png){.stretch}\
 
+<span style="font-size: xx-small; position: absolute; bottom: 0; left: 130px; ">Yajing Luo, Peng Liang, Chong Wang, Mojtaba Shahin, Jing Zhan (2021). Characteristics and Challenges of Low-Code Development: The
+Practitioners - arXiv repository</span>
+
 # Bibliografia
 ##
 ```

@@ -269,19 +269,17 @@ Workflow Visual Language
 # Bibliografia
 ##
 ```
-New development platforms emerge for customer-facing applications. Forrester (2014) - Clay Richardson, John R Rymer, Christopher Mines, Alex Cullen, Dominique Whittaker
+Richardson, C., et al., "New development platforms emerge for customer-facing applications." Forrester: Cambridge, MA, USA, vol. 15 (2014).
 ```
 
 ```
-Characteristics and Challenges of Low-Code Development: The Practitioners’ Perspective (2021) - Yajing Luo, Peng Liang, Chong Wang, Mojtaba Shahin, Jing Zhan
+Luo, Y., et al., "Characteristics and Challenges of Low-Code Development: The Practitioners' Perspective." Proceedings of the 15th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM). 2021.
 ```
 
 ```
-Low-code/No-code - przyszłość tworzenia aplikacji - Grzegorz Kubera
-[dostęp: 2022-03-05]
+Kubera, G., "Low-code/No-code - przyszłość tworzenia aplikacji" URL: https://www.computerworld.pl/news/Low-code-no-code-przyszlosc-tworzenia-aplikacji,424154.html [dostęp: 2022-03-05]
 ```
 
 ```
-When Low-Code/No-Code Development Works and When It Doesn’t - Chris Johannessen, Tom Davenport
-[dostęp: 2022-03-05]
+Johannessen, C., Davenport, T., "When Low-Code/No-Code Development Works and When It Doesn’t" URL: https://hbr.org/2021/06/when-low-code-no-code-development-works-and-when-it-doesnt [dostęp: 2022-03-05]
 ```

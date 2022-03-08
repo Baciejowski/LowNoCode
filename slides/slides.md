@@ -19,15 +19,14 @@
 4. Zalety technologii low/no-code
 5. Wady technologii low/no-code
 6. Narzędzia do tworzenia aplikacji low-code i no-code
-7. Języki programowania używane do tworzenia aplikacji low-code
 
 ##
-8. Tworzenie aplikacji low-code
-9. Tworzenie aplikacji no-code
-10. Porównanie low-code do podejścia tradycyjnego
-11. Zgadywanka
-12. Podsumowanie
-13. Bibliografia
+7. Tworzenie aplikacji low-code
+8. Tworzenie aplikacji no-code
+9. Porównanie low-code do podejścia tradycyjnego
+10. Zgadywanka
+11. Podsumowanie 
+12. Bibliografia
 
 # Czym jest<br> low/no-code
 

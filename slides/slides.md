@@ -295,9 +295,9 @@ Luo, Y., et al., "Characteristics and Challenges of Low-Code Development: The Pr
 ```
 
 ```
-Kubera, G., "Low-code/No-code - przyszłość tworzenia aplikacji" URL: https://www.computerworld.pl/news/Low-code-no-code-przyszlosc-tworzenia-aplikacji,424154.html [dostęp: 2022-03-05]
+Kubera, G., "Low-code/No-code - przyszłość tworzenia aplikacji" 20.09.2021 URL: https://www.computerworld.pl/news/Low-code-no-code-przyszlosc-tworzenia-aplikacji,424154.html [dostęp: 2022-03-05]
 ```
 
 ```
-Johannessen, C. and Davenport, T., "When Low-Code/No-Code Development Works and When It Doesn’t" URL: https://hbr.org/2021/06/when-low-code-no-code-development-works-and-when-it-doesnt [dostęp: 2022-03-05]
+Johannessen, C. and Davenport, T., "When Low-Code/No-Code Development Works and When It Doesn’t" 22.06.2021 URL: https://hbr.org/2021/06/when-low-code-no-code-development-works-and-when-it-doesnt [dostęp: 2022-03-05]
 ```

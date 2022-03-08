@@ -82,6 +82,8 @@
 #. Zmniejszenie kosztów implementacji
 #. Bogate i funkcjonalne komponenty
 
+<span style="font-size: xx-small; "> Source: Characteristics and Challenges of Low-Code Development Perspective (2021) - Yajing Luo, Peng Liang, Chong Wang, Mojtaba Shahin, Jing Zhan</span>
+
 # Wady
 
 ##
@@ -108,6 +110,8 @@
 #. Wysokie ceny usług
 #. Ograniczona personalizacja
 #. Spadek wydajności
+
+<span style="font-size: xx-small; "> Source: Characteristics and Challenges of Low-Code Development Perspective (2021) - Yajing Luo, Peng Liang, Chong Wang, Mojtaba Shahin, Jing Zhan</span>
 
 # Narzędzia
 
@@ -208,10 +212,14 @@ Workflow Visual Language
 <span style="font-size: xx-small; "> Source: www.spreadsheetweb.com/how-big-is-the-global-low-code-no-code-market-and-how-fast-is-it-growing</span> 
 
 ##
-![Porównanie](images/comparison.png){.stretch}\
+![Porównanie](images/comparison.png)\
+
+<span style="font-size: xx-small; "> Source: www.blogs.sap.com/2020/09/11/unveiling-sap-intelligent-rpa-2.0-hyperautomation-for-everyone/</span>
 
 ##
-![Demokratyzacja IT](images/democ.webp){.stretch}\
+![Demokratyzacja IT](images/democ.webp)\
+
+<span style="font-size: xx-small; "> Source: www.martechalliance.com/stories/the-rising-of-no-code-or-low-code-as-martech-solutions-for-digital-marketers</span>
 
 # Zgadywanka
 ##
